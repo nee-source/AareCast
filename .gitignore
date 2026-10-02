@@ -1,0 +1,22 @@
+# secrets
+.env
+
+# python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# data, experiments and model artifacts
+data/
+mlruns/
+mlartifacts/
+models/
+*.pkl
+*.joblib
+
+# editors / os
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
